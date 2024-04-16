@@ -1,0 +1,98 @@
+
+#links a,
+label,
+button,
+.contnet-title,
+a.mainLink,
+td,
+.xbutton,
+.user-name,
+.avatar {
+    color: white !important;
+}
+
+p.tip {
+    background: var(--color)
+}
+
+input,
+select {
+    background: #2c374b !important;
+    color: white;
+}
+
+.tab_content {
+    background: #545f75;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: rgba(44, 55, 75, .58);
+
+}
+
+::placeholder {
+
+    color: white;
+
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the thumb on hover */
+}
+
+/* Hide the scrollbar */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
+    /* thumb color and track color */
+}
+
+nav .icon,
+.dropdown-menu,
+div.square-btn {
+    background: #2c374b !important;
+    color: white;
+}
+
+#links svg:not(#links .active svg) {
+    color: white;
+}
+
+
+table {
+    background: transparent !important;
+}
+
+#links :not(#links .active) a:hover {
+    background: #2c374b !important;
+    color: white;
+}
+
+.bg-white {
+    background: #545f75 !important;
+}
+
+.paths li a {
+    color: white;
+}
+

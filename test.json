@@ -1,0 +1,20 @@
+{
+    "authentication_key": "187ad6b58aedfa97d009a88c82f1fa331af24582333a7d31b714b4ad76cd004d",
+    "main_client_code": 25516,
+    "second_client": "عصفور",
+    "receiver": "اسلام احمد",
+    "phone1": "01006541955",
+    "phone2": null,
+    "api_followup_phone": "01000262003",
+    "government": "القاهرة",
+    "area": "المطرية",
+    "address": "عزبة شلبي",
+    "notes": "الرجاء المعاينه وليس القياس او التجربه مع ضمان ثلاثه ايام فقط ضد عيوب الصناعة شرط الاسترجاع سلامه المنتج والعبوه والفاتوره",
+    "invoice_number": "AS410001",
+    "order_summary": "كوتشي اسود 41",
+    "amount_to_be_collected": 250,
+    "return_amount": 40,
+    "is_order": 0,
+    "return_summary": "كوتشي اسود 41",
+    "can_open": 1
+}

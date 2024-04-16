@@ -1,0 +1,117 @@
+.right {
+    display: none;
+}
+
+nav:not(.content nav) {
+    justify-content: space-between;
+    padding: 12px !important;
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.06);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.avatar {
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+
+
+
+aside {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -100%;
+    transition: 0.3s ease-in-out 0s;
+    z-index: 9;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#links {
+    background: white;
+    height: 100%;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px !important;
+}
+
+#links li:not(.dropdown-menu li) {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 15px;
+
+}
+
+
+#links a {
+    width: 100%;
+    font-weight: 700;
+}
+
+
+.ul-show {
+    right: 0px;
+    transition: 0.3s ease-in-out 0s;
+}
+
+.layout-show {
+    display: block;
+}
+
+
+.logo {
+    width: 120px;
+    margin-bottom: 0px;
+    padding: 10px 5px 10px 0px;
+    object-fit: contain;
+    box-sizing: content-box;
+}
+
+/* colors */
+
+.colors {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 300px;
+    left: -300px;
+
+}
+
+.colorsShow {
+    left: -10px;
+}
+
+
+
+/* content */
+.content {
+    padding: 0px 12px;
+    margin-top: 15px;
+
+}
+
+
+.tab_content {
+    margin-top: 10px;
+}
+
+
+
+
+.f-mobile {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px !important;
+}
+
+.product .product_img {
+    height: 150px !important;
+}
